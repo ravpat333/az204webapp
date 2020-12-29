@@ -1,0 +1,45 @@
+{
+ "properties": {
+  "displayName": "Tag-Init",
+  "policyType": "Custom",
+  "metadata": {
+   "createdBy": "0d6f7fcd-7f5c-4cbf-ad7b-bd05018c33ad",
+   "createdOn": "2020-12-29T19:18:51.7107347Z",
+   "updatedBy": null,
+   "updatedOn": null
+  },
+  "parameters": {},
+  "policyDefinitions": [
+   {
+    "policyDefinitionReferenceId": "Add a tag to resources_1",
+    "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/4f9dc7db-30c1-420c-b61a-e1d640128d26",
+    "parameters": {
+     "tagName": {
+      "value": "test"
+     },
+     "tagValue": {
+      "value": "test1"
+     }
+    },
+    "groupNames": []
+   },
+   {
+    "policyDefinitionReferenceId": "Add a tag to resource groups_1",
+    "policyDefinitionId": "/providers/Microsoft.Authorization/policyDefinitions/726aca4c-86e9-4b04-b0c5-073027359532",
+    "parameters": {
+     "tagName": {
+      "value": "test2"
+     },
+     "tagValue": {
+      "value": "test2"
+     }
+    },
+    "groupNames": []
+   }
+  ],
+  "policyDefinitionGroups": []
+ },
+ "id": "/subscriptions/ddc4040a-c2f0-46f3-a231-5449ddf76aad/providers/Microsoft.Authorization/policySetDefinitions/1890723aea6e46b08b9a607a",
+ "type": "Microsoft.Authorization/policySetDefinitions",
+ "name": "1890723aea6e46b08b9a607a"
+}
